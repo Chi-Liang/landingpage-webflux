@@ -1,4 +1,4 @@
-package com.hanye.mail.landingpagewebflux.batch.config;
+package com.hanye.mail.landingpagewebflux.config;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

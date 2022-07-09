@@ -1,4 +1,4 @@
-package com.hanye.mail.landingpagewebflux.batch.config;
+package com.hanye.mail.landingpagewebflux.config;
 
 import org.quartz.CronScheduleBuilder;
 import org.quartz.JobBuilder;

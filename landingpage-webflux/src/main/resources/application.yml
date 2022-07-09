@@ -14,4 +14,7 @@ spring:
   r2dbc:
     url: r2dbc:mysql://localhost:3308/landingpage
     username: root
-    password: 25262728               
+    password: 25262728
+  batch:
+      jdbc.initialize-schema: always
+      job.enabled: false                 
