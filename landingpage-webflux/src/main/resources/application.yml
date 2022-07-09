@@ -1,0 +1,17 @@
+server:
+   port: 80
+   servlet:
+      context-path: /landingpage
+      encoding:
+         enabled: true
+         charset: UTF-8
+         force: true
+         
+logging:
+  level.org.springframework.r2dbc: DEBUG
+         
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3308/landingpage
+    username: root
+    password: 25262728               
